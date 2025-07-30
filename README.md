@@ -28,21 +28,26 @@ A full-stack web application for managing employee records, built using **Spring
 
 ```
 
-Employee-Management-System/
-│
+employeemanagementsystem/
 ├── src/
 │   ├── main/
-│   │   ├── java/com/example/employee/
-│   │   ├── controller/
-│   │   ├── service/
-│   │   ├── repository/
-│   │   └── model/
-│   └── resources/
-│       └── application.properties
+│   │   ├── java/
+│   │   │   └── edu/jspiders/studentmanagementsystem/
+│   │   │       ├── controller/
+│   │   │       ├── entity/
+│   │   │       ├── repository/
+│   │   │       └── service/
+│   │   └── resources/
+│   └── test/
+├── target/
 ├── pom.xml
-└── README.md
+├── README.md
+├── mvnw
+├── mvnw\.cmd
+└── HELP.md
 
-````
+```
+
 
 ---
 

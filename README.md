@@ -5,7 +5,7 @@ A full-stack web application for managing employee records, built using **Spring
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Backend:** Java, Spring Boot, JPA, Hibernate
 - **Database:** MySQL (also tested with PostgreSQL)
@@ -14,7 +14,7 @@ A full-stack web application for managing employee records, built using **Spring
 
 ---
 
-## ✨ Features
+## Features
 
 - Add, update, delete, and view employee records
 - REST API design following standard HTTP methods
@@ -24,7 +24,7 @@ A full-stack web application for managing employee records, built using **Spring
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 
@@ -46,7 +46,7 @@ Employee-Management-System/
 
 ---
 
-## 📬 API Endpoints
+## API Endpoints
 
 | Method | Endpoint             | Description               |
 |--------|----------------------|---------------------------|
@@ -58,7 +58,7 @@ Employee-Management-System/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -67,49 +67,33 @@ Employee-Management-System/
 - Maven
 - Postman (for testing)
 
-### Setup Instructions
+## Setup Instructions
 
-1. Clone the repository:
+````markdown
+## Setup Instructions
+
+1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/Utkarssh11/employee-management-system.git
 ````
 
-2. Set up your MySQL/PostgreSQL database and update the `application.properties` file:
+2. **Set up your MySQL/PostgreSQL database** and update the `application.properties` file:
 
    ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
    spring.datasource.username=yourUsername
    spring.datasource.password=yourPassword
+   spring.jpa.hibernate.ddl-auto=update
+   spring.jpa.show-sql=true
    ```
 
-3. Build and run the project using Maven or your IDE:
+3. **Build and run the project** using Maven or your IDE:
 
    ```bash
    mvn spring-boot:run
    ```
 
-4. Test the API using Postman.
+4. **Test the API using Postman.** Use the API endpoints (e.g., `/employees`, `/employees/{id}`) to perform CRUD operations.
 
----
 
-## 📸 Screenshots
-
-*(Add API screenshots or UI images if available)*
-
----
-
-## 📌 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 🙌 Acknowledgements
-
-* [Spring Boot Documentation](https://spring.io/projects/spring-boot)
-* [Postman](https://www.postman.com/)
-* [JPA & Hibernate Docs](https://hibernate.org/orm/)
-
-```
-
----
